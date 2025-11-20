@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function Banner() {
-  const name = "Dalu Okonkwo".split(" ");
+  const name = "Daniel Esemezie".split(" ");
   const title = "Software Developer Engineer".split(" ");
 
   const textAnimationDuration = 0.5;
@@ -61,8 +61,8 @@ export default function Banner() {
             </button>
             <button className="bg-transparent hover:bg-blue-500 text-blue-500 hover:text-white font-normal py-2 px-4 rounded-full border border-blue-500 transition duration-300">
               <a
-                href="/dalu_okonkwo_resume.pdf"
-                download="Dalu Okonkwo's Resume"
+                href="/Daniel_Esemezie_resume.pdf"
+                download="Daniel Esemezie's Resume"
               >
                 Download CV
               </a>

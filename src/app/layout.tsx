@@ -8,8 +8,8 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dalu | Personal Portfolio",
-  description: "Dalu Okonkwo is a Software Developer Engineer",
+  title: "Daniel | Personal Portfolio",
+  description: "Daniel Esemezie is a Software Developer Engineer",
 };
 
 export default function RootLayout({
@@ -37,7 +37,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} pt-28 smpt:36 bg-black text-gray-100`}
+        className={`${inter.className} pt-28 smpt:36 bg-white text-gray-900`}
       >
         <ActiveSectionContextProvider>
           <Header></Header>

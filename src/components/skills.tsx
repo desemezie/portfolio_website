@@ -28,10 +28,10 @@ const SkillItem = ({
       transition={{ duration: 0.5 }}
       className="flex flex-col mb-10"
     >
-      <div className="text-white mb-3 text-3xl">{icon}</div>
-      <h3 className="text-white text-base sm:text-lg font-semibold leading-tight">
+      <div className="text-black mb-3 text-3xl">{icon}</div>
+      <h3 className="text-black text-base sm:text-lg font-semibold leading-tight">
         {title}
-        <span className="text-stone-400 text-base sm:text-lg leading-tight sm:font-normal font-semibold">
+        <span className="text-black-400 text-base sm:text-lg leading-tight sm:font-normal font-semibold">
           {description}
         </span>
       </h3>
@@ -58,7 +58,7 @@ export default function Skills() {
           <h2 className="text-4xl sm:text-5xl font-semibold mb-4">
             What do I work with?
           </h2>
-          <p className="text-gray-50 text-lg max-w-[800px] mx-auto word sm:tracking-normal tracking-tight font-semibold leading-[1.3]">
+          <p className="text-black-50 text-lg max-w-[800px] mx-auto word sm:tracking-normal tracking-tight font-semibold leading-[1.3]">
             Powerful tools. Endless possibilities.
           </p>
         </div>

@@ -21,10 +21,11 @@ export default function About() {
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
+
         transition={{ delay: 0.175 }}
       >
         <motion.p
-          className="bg-gradient-to-r from-cyan-300 from-[5%] via-cyan-400 via-[45%] to-blue-500 to-[95%] inline-block text-transparent bg-clip-text sm:text-2xl text-xl -tracking-[.02em] font-semibold"
+          className="bg-gradient-to-r from-cyan-300 from-[5%] via-cyan-400 via-[45%] to-blue-500 to-[95%] inline-block text-transparent bg-clip-text text-4xl lg:text-3xl  -tracking-[.02em] font-semibold"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
@@ -38,7 +39,7 @@ export default function About() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
-          I make web and mobile applications.
+          I build full stack web and mobile applications.
         </motion.h2>
 
         <div ref={textRef}>
@@ -46,13 +47,11 @@ export default function About() {
             initial={{ opacity: 0, y: 20 }}
             animate={textInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5 }}
-            className="text-base sm:text-xl text-gray-50 font-[400] leading-relaxed sm:pr-48"
+            className="text-base sm:text-xl text-black-50 font-[400] leading-relaxed sm:pr-48 font-bold"
           >
-            I&apos;m a developer that creates web and mobile applications. I
-            have a strong foundation in full-stack development and cloud
-            technologies. From my experience at big tech and side projects,
-            I&apos;ve developed a good eye for building user-focused products
-            that solve real problems.
+            I&apos;m a developer that creates web and mobile applications. My background in full-stack development and cloud systems
+             lets me design, deploy, and maintain reliable products end-to-end. 
+             
           </motion.p>
         </div>
       </motion.div>

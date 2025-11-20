@@ -33,7 +33,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 0.5, delay: index * 0.1 }}
-        className="relative rounded-3xl overflow-hidden group cursor-pointer w-[280px] sm:w-[300px] h-[400px] sm:h-[500px] mx-2 flex-shrink-0"
+        className="relative rounded-3xl overflow-hidden group cursor-pointer w-[280px] sm:w-[300px] h-[400px] sm:h-[390px] mx-2 flex-shrink-0"
       >
         <div className="absolute inset-0">
           <div
@@ -98,7 +98,7 @@ export default function Projects() {
         className="max-w-[70rem] mx-auto"
       >
         <motion.p
-          className="bg-gradient-to-r from-cyan-300 from-[5%] via-cyan-400 via-[50%] to-blue-700 to-[85%] inline-block text-transparent bg-clip-text sm:text-2xl text-xl font-semibold -tracking-[.015em] mb-10 px-4"
+          className="bg-gradient-to-r from-cyan-300 from-[5%] via-cyan-400 via-[50%] to-blue-700 to-[85%] inline-block text-transparent bg-clip-text text-4xl lg:text-3xl font-semibold -tracking-[.015em] mb-10 px-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
