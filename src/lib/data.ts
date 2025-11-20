@@ -1,4 +1,4 @@
-import { image } from "framer-motion/client";
+
 
 export const gradients = {
   green: "bg-gradient-to-r from-emerald-400 via-emerald-400 to-green-400",
