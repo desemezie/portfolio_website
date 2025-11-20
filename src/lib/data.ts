@@ -1,3 +1,5 @@
+import { image } from "framer-motion/client";
+
 export const gradients = {
   green: "bg-gradient-to-r from-emerald-400 via-emerald-400 to-green-400",
   blue: "bg-gradient-to-r from-blue-400 via-blue-400 to-cyan-400",
@@ -56,13 +58,35 @@ export const experienceData = [
 
 export const projectsData = [
 
+
+
+   {
+  subtitle: "C++ • Qt • State Machines",
+  title: "BitBuddy ",
+  description: " A desktop pet with evolving behaviors.",
+  gradient: "from-cyan-400 via-blue-500 to-indigo-600",
+  image: "BitBuddy.png",
+  link: "https://github.com/desemezie/Word-Wise",
+},
+
+
+
   {
     subtitle: "Spring Boot • Spring Security • Spring Data JPA • PostgreSQL",
     title: "Full stack Employee Platform",
     description: "REST + GraphQL APIs for tasks, projects, and teams, Unit + integration tests using JUnit 5 / Testcontainers. CI/CD pipeline (GitHub Actions) deploying to staging + prod. ",
     gradient: "from-red-400 via-purple-400 to-blue-400",
-    link: "https://devpost.com/software/meddibia",
+
   },
+
+  {
+  subtitle: "Next.js • React • TypeScript • Tailwind CSS • Framer Motion",
+  title: "Portfolio Website",
+  description: "Responsive personal site built to showcase projects, experience, and skills.",
+  gradient: "from-cyan-400 via-blue-500 to-indigo-600",
+  image: "middlesexcollege.png",
+  link: "https://portfolio-website-two-flame-er5ea15h51.vercel.app/",
+ },
 
    
   {
@@ -70,8 +94,18 @@ export const projectsData = [
   title: "Law Firm Website",
   description: "Modern, responsive site with service pages, attorney profiles, and a streamlined contact flow for client inquiries.",
   gradient: "from-blue-400 via-slate-400 to-gray-400",
-  link: "https://github.com/your-repo"
+  
   },
+
+  {
+  subtitle: "Java • Swing • Custom Editor",
+  title: "WordWise",
+  description: "A lightweight text editor with clean design.",
+  gradient: "from-emerald-400 via-teal-500 to-cyan-600",
+  link:"https://github.com/desemezie/Word-Wise?tab=readme-ov-file",
+  image: "wordwise.png",
+}
+,
 
 
   {
@@ -79,7 +113,7 @@ export const projectsData = [
     title: "Used Transportation E-commerce Platform",
     description: "Product catalog, user accounts, shopping cart, checkout flow, and order history. Admin tools for managing inventory and orders. Clean REST API powering all operations.",
     gradient: "from-blue-400 via-indigo-400 to-purple-400",
-    link: "https://github.com/your-repo"
+  
   },
 
   {
@@ -87,8 +121,14 @@ export const projectsData = [
     title: "Gesture Control",
     description: "Your hands. Your commands.",
     gradient: "from-purple-400 via-pink-400 to-red-400",
-    link: "https://devpost.com/software/gesture-ai",
+   
   },
+
+  
+
+  
+
+
 
   {
   subtitle: "React • Tailwind • Vite • Firebase",
@@ -96,7 +136,7 @@ export const projectsData = [
   description:
     "Interactive visualizer for property prices, trends, and neighborhood stats. Firebase handles auth, Firestore stores listings + regional data, and Cloud Functions preprocess datasets. Frontend renders maps, charts, and filters in real time.",
   gradient: "from-indigo-400 via-blue-400 to-slate-500",
-  link: "https://github.com/your-housing-visualizer"
+  
   },
 
   {
@@ -105,7 +145,7 @@ export const projectsData = [
   description:
     "Full marketplace with customer, provider, and admin accounts. FastAPI backend delivers role-based authentication, provider onboarding, service listings, bookings, reviews, messaging, and payments. PostgreSQL stores core data. ",
   gradient: "from-emerald-400 via-sky-400 to-slate-400",
-  link: "https://github.com/your-service-marketplace"
+
   }
 
 ] as const;

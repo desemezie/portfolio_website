@@ -44,8 +44,8 @@ export default function Home() {
             className="w-full h-full object-cover"
           />s
           <div className="absolute inset-0 bg-black/25" />
-          <h1 className="absolute top-8 left-8 text-white text-4xl font-semibold max-w-lg leading-tight">
-            Honours specilization in Computer science Student at Western University
+          <h1 className="absolute top-8 left-8 text-white text-3xl font-semibold leading-tight">
+            Honours specialization in Computer Science <br />Western University
           </h1>
         </div>
 
