@@ -107,6 +107,13 @@ export const projectsData = [
 }
 ,
 
+  {
+    subtitle: "Python • OpenCV • MediaPipe",
+    title: "Gesture Control",
+    description: "Your hands. Your commands.",
+    gradient: "from-purple-400 via-pink-400 to-red-400",
+   
+  },
 
   {
     subtitle: "Next.js • Node.js • Express • PostgreSQL",
@@ -116,13 +123,6 @@ export const projectsData = [
   
   },
 
-  {
-    subtitle: "Python • OpenCV • MediaPipe",
-    title: "Gesture Control",
-    description: "Your hands. Your commands.",
-    gradient: "from-purple-400 via-pink-400 to-red-400",
-   
-  },
 
   
 
