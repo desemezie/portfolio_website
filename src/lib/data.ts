@@ -66,7 +66,7 @@ export const projectsData = [
   description: " A desktop pet with evolving behaviors.",
   gradient: "from-cyan-400 via-blue-500 to-indigo-600",
   image: "Bitbuddy.png",
-  link: "https://github.com/desemezie/Word-Wise",
+  link: "https://github.com/desemezie/BitBuddy",
 },
 
 

@@ -10,13 +10,14 @@ import Skills from "@/components/skills";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center px-4 gap-55">
+    <main className="flex flex-col items-center px-4 gap-58">
       <Banner />
       <SectionDivider />
       <About />
       <SectionDivider />
       <Education />
       <Projects />
+      <SectionDivider />
       <Skills />
       <Experience />
       <Contact />
