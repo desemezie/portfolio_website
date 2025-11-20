@@ -65,7 +65,7 @@ export const projectsData = [
   title: "BitBuddy ",
   description: " A desktop pet with evolving behaviors.",
   gradient: "from-cyan-400 via-blue-500 to-indigo-600",
-  image: "BitBuddy.png",
+  image: "Bitbuddy.png",
   link: "https://github.com/desemezie/Word-Wise",
 },
 
